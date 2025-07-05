@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Dataviz – the Art/Skill Cocktail"
+  author: "Ilya Kashnitsky"
+  date: "2025-07-14"
+  chapters:
+    - dataviz-rules.qmd
+    - basics.qmd
+    - toolbox.qmd
+    - maps.qmd
+    - rock.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
